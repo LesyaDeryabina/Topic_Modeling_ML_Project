@@ -17,8 +17,8 @@ plot_ly(tf_idf,
         colors = 'Paired',
         marker = list(opacity = 0.6, sizemode = 'diameter')) %>%
   layout(title = 'Распределение слов по темам (tf-idf)',
-         xaxis = list(title = "Words"),
-         yaxis = list(title = "Value")) %>%
+         xaxis = list(title = "Value"),
+         yaxis = list(title = "Words")) %>%
   add_markers()
 
 
